@@ -1,5 +1,8 @@
 ﻿namespace AsyncExample01
 {
+    /// <summary>
+    /// Purpose: Demonstrates a simple async call being made
+    /// </summary>
     internal class Program
     {
         /// <summary>

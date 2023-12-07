@@ -1,5 +1,8 @@
 ﻿namespace AsyncExample02
 {
+    /// <summary>
+    /// Purpose: Simulating delay using Task.Delay
+    /// </summary>
     internal class Program
     {
         /// <summary>
@@ -7,6 +10,7 @@
         /// </summary>
         public static async Task SimulateSomeLongProcess()
         {
+            //Simulating some long task by Task.Delay
             await Task.Delay(5000);
             Console.WriteLine("Completed some long task");
         }
